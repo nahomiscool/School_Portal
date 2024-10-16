@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student Portal - Home Page</title>
+        <link rel="stylesheet" href="/style/Homepage-style.css">
+    </head>
+    <body>
+        <nav class="nav-bar">
+            <div class="nav-bar-logo">
+                <img src="/img/photo_2024-05-30_10-29-16-removebg-preview.png" alt="University Logo">
+                <h1>UNITY UNIVERSITY</h1>
+            </div>
+            <div class="nav-bar-tools">
+                <button type="button" onclick="window.location.replace('/html/Login-page.html')">Logout</button>
+            </div>
+        </nav>
+
+        <div class="portal-container">
+            <aside class="side-nav">
+                <ul>
+                    <li><a href="/html/dashboard.html">Dashboard</a></li>
+                    <li><a href="/html/grades.html">Grades</a></li>
+                    <li><a href="/html/courses.html">Courses</a></li>
+                    <li><a href="/html/assignments.html">Assignments</a></li>
+                    <li><a href="/html/schedule.html">Schedule</a></li>
+                    <li><a href="/html/profile.html">Profile</a></li>
+                    <li><a href="/html/library.html">Library</a></li>
+                </ul>
+            </aside>
+
+            <main class="display-screen">
+                <h2>Welcome to your Student Portal</h2>
+                <p>Select an option from the side menu to get started.</p>
+            </main>
+        </div>
+
+        <script type="module" src="/script/student_script.js"></script>
+    </body>
+</html>

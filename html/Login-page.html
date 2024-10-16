@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login page</title>
+        <link rel="stylesheet" href="/style/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="login-form-container">
+            <div class="campaus-name">
+                <img src="/img/photo_2024-05-30_10-29-16-removebg-preview.png">
+                <h1>UNITY UNIVERSITY</h1>
+            </div>
+            <form class="form-section">
+                <input class="ID-name" type="text" placeholder="Username" required>
+                <input class="ID-password" type="password" placeholder="Password" required>
+                <div class="second">
+                    <button type="button" onclick="login()">Login</button> <!-- This calls the global login function -->
+                </div>
+            </form>
+        </div>
+        <!-- Import the student script -->
+        <script type="module" src="/script/student_script.js"></script>
+    </body>
+</html>

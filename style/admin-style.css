@@ -1,0 +1,93 @@
+/* General layout for the Admin portal */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+}
+
+.admin-nav-bar {
+    width: 100%;
+    height: 80px;
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+}
+
+.admin-nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.admin-nav-tools button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.admin-nav-tools button:hover {
+    background-color: #c0392b;
+}
+
+.admin-portal-container {
+    display: flex;
+    height: calc(100vh - 80px); /* Take the remaining space after navbar */
+}
+
+.admin-side-nav {
+    width: 250px;
+    background-color: #34495e;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.admin-side-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.admin-side-nav ul li {
+    margin: 20px 0;
+}
+
+.admin-side-nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block;
+    background-color: #2c3e50;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.admin-side-nav ul li a:hover {
+    background-color: #1abc9c;
+}
+
+.admin-display-screen {
+    flex: 1;
+    padding: 40px;
+    background-color: white;
+    border-left: 2px solid #ecf0f1;
+    overflow-y: auto;
+}
+
+.admin-display-screen h2 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.admin-display-screen p {
+    font-size: 16px;
+    color: #7f8c8d;
+}

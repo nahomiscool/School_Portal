@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrator Portal</title>
+    <link rel="stylesheet" href="/style/admin-style.css">
+</head>
+<body>
+    <nav class="admin-nav-bar">
+        <div class="admin-nav-logo">
+            <h1>ADMINISTRATOR PORTAL</h1>
+        </div>
+        <div class="admin-nav-tools">
+            <button type="button" onclick="window.location.replace('/html/Login-page.html')">Logout</button>
+        </div>
+    </nav>
+
+    <div class="admin-portal-container">
+        <aside class="admin-side-nav">
+            <ul>
+                <li><a href="/html/manage-students.html">Manage Students</a></li>
+                <li><a href="/html/manage-courses.html">Manage Courses</a></li>
+                <li><a href="/html/view-reports.html">View Reports</a></li>
+                <li><a href="/html/settings.html">Settings</a></li>
+                <li><a href="/html/admin-dashboard.html">Dashboard</a></li>
+            </ul>
+        </aside>
+
+        <main class="admin-display-screen">
+            <h2>Welcome to the Administrator Portal</h2>
+            <p>Select an option from the side menu to get started.</p>
+        </main>
+    </div>
+
+    <script type="module" src="/script/admin_script.js"></script>
+</body>
+</html>
